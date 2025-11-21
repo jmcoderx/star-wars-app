@@ -9,6 +9,7 @@ cd star-wars-app
 
 # 2. Start backend
 cd backend
+pip3 install fastapi "uvicorn[standard]" # ← run once if python not installed
 uvicorn main:app --reload --port=8000
 # (leave this terminal running)
 
