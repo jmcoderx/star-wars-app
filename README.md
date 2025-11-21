@@ -17,3 +17,6 @@ uvicorn main:app --reload --port=8000
 cd star-wars-app/frontend/app
 npm install
 npm run dev
+
+# 4. Open app in browser
+http://127.0.0.1:5173
